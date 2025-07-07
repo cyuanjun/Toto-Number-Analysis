@@ -1,16 +1,17 @@
 # TOTO Number Analysis 🎯
 
-A data analysis project exploring number frequency, patterns, and trends in Singapore TOTO lottery draws using Python. This project aims to gain insights from historical TOTO results through statistical techniques and data visualization.
+A data analysis project exploring number frequency, patterns, and trends in Singapore's TOTO lottery draws using Python. With this project, I aim to gain insights from historical TOTO results through statistical techniques and data visualization.
 
 ---
 
 ## 📊 Project Overview
 
-The goal of this project is to explore whether 
-- Analyze the frequency of winning numbers.
-- Visualize trends over time.
-- Identify number distribution and repetition patterns.
-- Explore and evaluate basic prediction strategies.
+The goal of this project is to explore whether there is a smarter way to select our TOTO numbers that would give us a statistical advantage over just randomly selecting them.
+We will be doing this through:
+- Analysing the frequency of winning numbers.
+- Visualising trends over time.
+- Identifying number distribution and repetition patterns.
+- Exploring and evaluating basic prediction strategies.
 
 ---
 
