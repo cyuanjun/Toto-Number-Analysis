@@ -43,22 +43,24 @@ toto-number-analysis/
     ```bash
     git clone https://github.com/cyuanjun/toto-number-analysis.git
     ```
+
 2. **Change directory**:
     ```bash
     cd toto-number-analysis
     ```
+
 3. **Create/Activate virtual environment (Optional)**:
     
     - #### Windows:
 
         - Creating virtual environment
         ```bash
-        python -m venv toto_number_analysis
+        python -m venv toto_number_analysis_venv
         ```
 
         - Activating virtual environment
         ```
-        toto_number_analysis\Scripts\activate.bat
+        toto_number_analysis\Scripts\activate
         ```
     - #### Mac:
 
@@ -73,6 +75,72 @@ toto-number-analysis/
         ```
 
     - #### Deactivating virtual environment (Windows/Mac)
+        - Same for Windows / Mac
         ```bash
         deactivate
         ```
+
+4. **Install necessary libraries from requirements.txt file into virtual environment**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Running the script**:
+    ```bash
+    python toto_analysis.py
+    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
