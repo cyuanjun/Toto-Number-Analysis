@@ -1,17 +1,16 @@
 # TOTO Number Analysis 🎯
 
-A data analysis project exploring number frequency, patterns, and trends in Singapore's TOTO lottery draws using Python. With this project, I aim to gain insights from historical TOTO results through statistical techniques and data visualization.
+A data analysis project exploring number frequency, patterns, and trends in Singapore TOTO lottery draws using Python. This project aims to gain insights from historical TOTO results through statistical techniques and data visualization.
 
 ---
 
 ## 📊 Project Overview
 
-The goal of this project is to explore whether there is a smarter way to select our TOTO numbers that would give us a statistical advantage over just randomly selecting them.
-We will be doing this through:
-- Analysing the frequency of winning numbers.
-- Visualising trends over time.
-- Identifying number distribution and repetition patterns.
-- Exploring and evaluating basic prediction strategies.
+The goal of this project is to explore whether 
+- Analyze the frequency of winning numbers.
+- Visualize trends over time.
+- Identify number distribution and repetition patterns.
+- Explore and evaluate basic prediction strategies.
 
 ---
 
@@ -31,7 +30,7 @@ We will be doing this through:
 ```
 toto-number-analysis/
 ├── toto_results.csv    # Historical TOTO draw data (input)
-├── main.py             # Main script with menu and analysis functions
+├── toto_analysis.py    # Main script with menu and analysis functions
 ├── README.md           # Project documentation
 └── requirements.txt    # Python package dependencies
 ```
@@ -53,7 +52,6 @@ toto-number-analysis/
 3. **Create/Activate virtual environment (Optional)**:
     
     - #### Windows:
-
         - Creating virtual environment
         ```bash
         python -m venv toto_number_analysis_venv
@@ -64,7 +62,6 @@ toto-number-analysis/
         toto_number_analysis\Scripts\activate
         ```
     - #### Mac:
-
         - Creating virtual environment
         ```bash
         python3 -m venv toto_number_analysis
@@ -91,6 +88,23 @@ toto-number-analysis/
     python toto_analysis.py
     ```
 
+6. **Navigate with command-line-interface**:
+    - Select the option that you want by typing into the command-line
+    ```bash
+    What data do you want to look at?
+    1. Individual bar chart
+    2. Grouped bar chart
+    3. Overall frequency
+    4. Backtest (Most Frequent)
+    5. Backtest (Least Frequent)
+    6. Confidence interval chart
+    7. Monte carlo
+    0. End
+    ===========================
+    Choice:
+    ```
+
+---
 
 
 
