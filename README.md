@@ -14,12 +14,15 @@ The goal of this project is to explore whether
 
 ---
 
-## 🧰 Technologies Used
+## 🧰 Tech Stack
 
-- **Python 3**
-- **Pandas** – for data manipulation and cleaning
-- **Matplotlib / Seaborn** – for visualizing frequency and trends
-- **SciPy** – for statistical calculations
+- **Language**:
+    - Python 3
+
+- **Libraries**:
+    - Pandas                  # For data manipulation and cleaning
+    - Matplotlib / Seaborn    # For visualizing frequency and trends
+    - SciPy                   # For statistical calculations
 
 ---
 
