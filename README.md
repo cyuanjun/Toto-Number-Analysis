@@ -20,9 +20,9 @@ The goal of this project is to explore whether
     - Python 3
 
 - **Libraries**:
-    - Pandas                  # For data manipulation and cleaning
-    - Matplotlib / Seaborn    # For visualizing frequency and trends
-    - SciPy                   # For statistical calculations
+    - Pandas (For data manipulation and cleaning)
+    - Matplotlib / Seaborn (For visualizing frequency and trends)
+    - SciPy (For statistical calculations)
 
 ---
 
