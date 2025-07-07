@@ -90,7 +90,7 @@ toto-number-analysis/
 
 6. **Navigate with command-line-interface**:
     - Select the option that you want by typing into the command-line
-    ```bash
+    ```
     What data do you want to look at?
     1. Individual bar chart
     2. Grouped bar chart
