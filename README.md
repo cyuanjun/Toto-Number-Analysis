@@ -6,11 +6,12 @@ A data analysis project exploring number frequency, patterns, and trends in Sing
 
 ## 📊 Project Overview
 
-The goal of this project is to explore whether 
-- Analyze the frequency of winning numbers.
-- Visualize trends over time.
-- Identify number distribution and repetition patterns.
-- Explore and evaluate basic prediction strategies.
+The goal of this project is to explore whether there is a smarter way to select our TOTO numbers that would give us a statistical advantage over just randomly selecting them.
+We will be doing this through:
+- Analysing the frequency of winning numbers.
+- Visualising trends over time.
+- Identifying number distribution and repetition patterns.
+- Exploring and evaluating basic prediction strategies.
 
 ---
 
@@ -106,6 +107,12 @@ toto-number-analysis/
 
 ---
 
+## 🔍 Data Exploration
+- Before we can start with any data exploration, we have to have a dataset. For this project, I will be using data from a csv file downloaded from [this](https://en.lottolyzer.com/history/singapore/toto/page/1/per-page/50/summary-view)
+ website, which contains past TOTO draw data starting from 2008.
+ - Click on the CSV icon above the table on the left side and complete the capcha to download the file
+ ![CSV download guide](images/csv_download_guide.png)
+---
 
 
 
@@ -155,7 +162,20 @@ toto-number-analysis/
 
 
 
-
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
+## -
 
 
 
