@@ -107,6 +107,7 @@ toto-number-analysis/
 - Before we can start with any data exploration, we have to have a dataset. For this project, I will be using data from a csv file downloaded from [this](https://en.lottolyzer.com/history/singapore/toto/page/1/per-page/50/summary-view)
  website, which contains past TOTO draw data starting from 2008.
  - The dataset provided in this repository would be outdated by the time you guys download it. If you would like to get the latest dataset, click on the CSV icon above the table on the left side and complete the capcha to download the file.
+ 
  ![CSV download guide](images/csv_download_guide.png)
  - Ensure that the downloaded csv file is placed in the **"toto-number-analysis"** folder that you have cloned, and rename it to **"toto_results.csv"**.
 
