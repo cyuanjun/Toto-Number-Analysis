@@ -1,11 +1,9 @@
 # TOTO Number Analysis 🎯
-
 A data analysis project exploring number frequency, patterns, and trends in Singapore TOTO lottery draws using Python. This project aims to gain insights from historical TOTO results through statistical techniques and data visualization.
 
 ---
 
 ## 📊 Project Overview
-
 The goal of this project is to explore whether there is a smarter way to select our TOTO numbers that would give us a statistical advantage over just randomly selecting them.
 We will be doing this through:
 - Analysing the frequency of winning numbers.
@@ -16,7 +14,6 @@ We will be doing this through:
 ---
 
 ## 🧰 Tech Stack
-
 - **Language**:
     - Python 3
 
@@ -39,7 +36,6 @@ toto-number-analysis/
 ---
 
 ## ▶️ How to Use
-
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/cyuanjun/toto-number-analysis.git
@@ -107,15 +103,18 @@ toto-number-analysis/
 
 ---
 
-## 🔍 Data Exploration
+## 🧾 Getting Dataset
 - Before we can start with any data exploration, we have to have a dataset. For this project, I will be using data from a csv file downloaded from [this](https://en.lottolyzer.com/history/singapore/toto/page/1/per-page/50/summary-view)
  website, which contains past TOTO draw data starting from 2008.
- - Click on the CSV icon above the table on the left side and complete the capcha to download the file
+ - The dataset provided in this repository would be outdated by the time you guys download it. If you would like to get the latest dataset, click on the CSV icon above the table on the left side and complete the capcha to download the file.
  ![CSV download guide](images/csv_download_guide.png)
+ - Ensure that the downloaded csv file is placed in the **"toto-number-analysis"** folder that you have cloned, and rename it to **"toto_results.csv"**.
+
 ---
 
-
-
+## 🧹 Cleaning Data
+- "Garbage in garbage out"
+- Since we are using data from a third party and we do not know whether the data is clean or not, we have to clean the data to prevent bugs and ensure the analysis that we perform later is accurate. 
 
 
 
