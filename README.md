@@ -103,19 +103,51 @@ toto-number-analysis/
 
 ---
 
-## 🧾 Getting Dataset
-- Before we can start with any data exploration, we have to have a dataset. For this project, I will be using data from a csv file downloaded from [this](https://en.lottolyzer.com/history/singapore/toto/page/1/per-page/50/summary-view)
+## 🧾 1. Getting Dataset
+- For this project, I will be using data from a csv file downloaded from [this](https://en.lottolyzer.com/history/singapore/toto/page/1/per-page/50/summary-view)
  website, which contains past TOTO draw data starting from 2008.
- - The dataset provided in this repository would be outdated by the time you guys download it. If you would like to get the latest dataset, click on the CSV icon above the table on the left side and complete the capcha to download the file.
+ - To get the latest dataset, click on the CSV icon above the table on the left side and complete the capcha to download the file.
  
  ![CSV download guide](images/csv_download_guide.png)
  - Ensure that the downloaded csv file is placed in the **"toto-number-analysis"** folder that you have cloned, and rename it to **"toto_results.csv"**.
 
 ---
 
-## 🧹 Cleaning Data
-- "Garbage in garbage out"
-- Since we are using data from a third party and we do not know whether the data is clean or not, we have to clean the data to prevent bugs and ensure the analysis that we perform later is accurate. 
+## 🧹 2. Cleaning Data
+- "Garbage in garbage out". Since we are using data from a third party and we do not know whether the data is clean or not, we have to clean the data to prevent bugs and ensure the analysis that we perform later is accurate. To do so, we first have to identify what are some parameters the data has to satisfy.
+- For this dataset, we need to check for:
+    - Missing values
+        - All TOTO draws have 6 numbers and 1 additional number
+    - Incorrect data type
+        - All data should be integers
+    - Range of values (Values have to be between 1 and 49)
+        - All values have to be between 1 and 49
+    - No duplicate values in the same row
+        - The same number cannot appear twice in one draw
+    - Values have to be in ascending order from Num1 - Num6
+        - Facilitates use of data later when performing analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
